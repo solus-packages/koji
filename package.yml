@@ -1,0 +1,17 @@
+name       : koji
+version    : 1.10.0
+release    : 1
+source     :
+    - https://fedorahosted.org/released/koji/koji-1.10.0.tar.bz2 : c512f682a7ce617bd4cfbed5f2d12935a7bd62839fa8bf9811449c89293a0df9
+license    : GPL-2.0
+summary    : RPM Build System
+description: |
+    RPM Build System
+builddeps  :
+rundeps    :
+    - mock
+    - rpm
+build      : |
+    %make
+install    : |
+    %make_install
