@@ -20,6 +20,7 @@
         <RuntimeDependencies>
             <Dependency>mock</Dependency>
             <Dependency>rpm</Dependency>
+            <Dependency>python-krbv</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/libexec/koji-hub</Path>
@@ -48,7 +49,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2015-08-21</Date>
             <Version>1.10.0</Version>
             <Comment>Packaging update</Comment>
