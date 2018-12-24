@@ -1,8 +1,8 @@
 name       : koji
 version    : 1.16.1
-release    : 4
+release    : 5
 source     :
-    - git|https://pagure.io/koji.git : koji-1.16.1
+    - https://releases.pagure.org/koji/koji-1.16.1.tar.bz2 : e51c834f0d7e83a0e07561225402c3249f6bc5ee447d3a8d601074e52e240806
 license    : GPL-2.0-or-later
 component  : programming.tools
 summary    : RPM Build System
